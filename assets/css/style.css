@@ -62,6 +62,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game cards styling */
+#new-games .card, 
+#fav-games .card {
+    border: none;
+}
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
