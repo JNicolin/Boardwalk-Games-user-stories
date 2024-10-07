@@ -4,10 +4,10 @@
 /* CSS variables */
 :root {
     --primary-font: "Inter", sans-serif; 
-    --secondary-font: "Macond", cursive;
+    --secondary-font: "Macondo", cursive;
     --primary-color: #aa9581; /* light-brown */
     --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #719fc2; /* light blue */    
+    --highlight-color-light: #7a9fc2; /* light blue */    
 }
 
 /* Global styles */
@@ -101,6 +101,22 @@ h2 {
         min-height: 195px;
     }
 }
+
+/* Footer | Contact */
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
