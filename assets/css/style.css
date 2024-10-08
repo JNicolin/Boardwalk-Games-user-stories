@@ -89,6 +89,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events styling */
+#events #discount{
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Game cards styling */
 #new-games .card, 
 #fav-games .card {
